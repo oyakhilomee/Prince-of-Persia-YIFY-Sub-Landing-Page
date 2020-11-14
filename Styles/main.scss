@@ -1,0 +1,35 @@
+$color-one: rgb(171, 175, 176);
+$color-two: rgb(255, 171, 21);
+$color-three: rgb(16, 26, 34);
+$color-four: rgb(24, 40, 52);
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $color-one;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  background-image: url(/Assets/Mirage.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vmin;
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
