@@ -3,6 +3,7 @@ $color-two: rgb(255, 171, 21);
 $color-three: rgb(16, 26, 34);
 $color-four: rgb(24, 40, 52);
 $color-five: rgb(102, 175, 233);
+$color-six: #fff;
 
 *,
 html {
@@ -17,7 +18,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #fff;
+  color: $color-six;
 }
 
 li {
@@ -30,7 +31,27 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   //   height: 100vmin;
-  color: #fff;
+  color: $color-six;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.search-input {
+  width: 80%;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: $color-four;
+  border: none;
+  margin: 1rem auto;
+}
+
+.fa-search {
+  height: 1rem;
+  width: 1rem;
+  color: $color-two;
+}
+
+.fa-search:hover {
+  height: 1rem;
+  width: 1rem;
+  color: $color-six;
 }
