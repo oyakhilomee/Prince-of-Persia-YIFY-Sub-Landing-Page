@@ -2,6 +2,7 @@ $color-one: rgb(171, 175, 176);
 $color-two: rgb(255, 171, 21);
 $color-three: rgb(16, 26, 34);
 $color-four: rgb(24, 40, 52);
+$color-five: rgb(102, 175, 233);
 
 *,
 html {
@@ -28,7 +29,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vmin;
+  //   height: 100vmin;
   color: #fff;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
