@@ -3,7 +3,9 @@ $color-two: rgb(255, 171, 21);
 $color-three: rgb(16, 26, 34);
 $color-four: rgb(24, 40, 52);
 $color-five: rgb(102, 175, 233);
-$color-six: #fff;
+$color-six: rgb(255, 255, 255);
+$color-seven: rgb(21, 54, 72);
+$color-eight: rgb(6, 10, 14);
 
 *,
 html {
@@ -33,6 +35,9 @@ li {
   margin: 1rem 0 1rem 0;
 }
 
+// .inline-block {
+//   display: inline-block;
+// }
 body {
   background-image: url(/Assets/Mirage.jpg);
   background-position: center;
@@ -102,9 +107,58 @@ span {
   color: $color-one;
   font-weight: 400;
   font-size: 1.3rem;
+  margin: 1.4rem 0 0.9rem 0;
+}
+
+.button-container {
+  display: flex;
+  background-color: red;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  .num-two {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .two {
+      font-size: 1.4rem;
+    }
+  }
+  .button-section {
+    width: 90%;
+  }
 }
 
 .language {
+  display: flex;
+  justify-content: space-between;
   background-color: $color-three;
   padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+  color: $color-one;
+  border-bottom: 0.7 solid white;
+  .language-text {
+    text-transform: uppercase;
+  }
+  .english {
+    color: $color-six;
+  }
+}
+
+.uploader {
+  display: flex;
+  justify-content: space-between;
+  background-color: $color-three;
+  padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+  color: $color-one;
+  .uploader-text {
+    text-transform: uppercase;
+  }
+  .youtoo {
+    color: $color-two;
+  }
+  .youtoo:hover {
+    color: $color-six;
+    cursor: pointer;
+  }
 }

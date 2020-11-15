@@ -11,7 +11,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
 li {
@@ -31,7 +31,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
+  color: white;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
@@ -71,7 +71,7 @@ body {
 .fa-search:hover {
   height: 1rem;
   width: 1rem;
-  color: #fff;
+  color: white;
 }
 
 span {
@@ -101,10 +101,83 @@ span {
   color: #abafb0;
   font-weight: 400;
   font-size: 1.3rem;
+  margin: 1.4rem 0 0.9rem 0;
+}
+
+.button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: red;
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.button-container .num-two {
+  width: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button-container .num-two .two {
+  font-size: 1.4rem;
+}
+
+.button-container .button-section {
+  width: 90%;
 }
 
 .language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #101a22;
   padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+  color: #abafb0;
+  border-bottom: 0.7 solid white;
+}
+
+.language .language-text {
+  text-transform: uppercase;
+}
+
+.language .english {
+  color: white;
+}
+
+.uploader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #101a22;
+  padding: 0.4rem 0.4rem 0.4rem 0.4rem;
+  color: #abafb0;
+}
+
+.uploader .uploader-text {
+  text-transform: uppercase;
+}
+
+.uploader .youtoo {
+  color: #ffab15;
+}
+
+.uploader .youtoo:hover {
+  color: white;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
