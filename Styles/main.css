@@ -18,6 +18,14 @@ li {
   list-style: none;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.mx-1 {
+  margin: 1rem 0 1rem 0;
+}
+
 body {
   background-image: url(/Assets/Mirage.jpg);
   background-position: center;
@@ -27,23 +35,76 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.searchbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+}
+
 .search-input {
   width: 80%;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   background-color: #182834;
   border: none;
-  margin: 1rem auto;
+}
+
+.search-input:focus {
+  outline: none;
+  -webkit-box-shadow: 0 0 5px #66afe9;
+          box-shadow: 0 0 5px #66afe9;
+  border: 1px solid #66afe9;
+  -webkit-transition: 0.6s ease-out;
+  transition: 0.6s ease-out;
 }
 
 .fa-search {
   height: 1rem;
   width: 1rem;
   color: #ffab15;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 }
 
 .fa-search:hover {
   height: 1rem;
   width: 1rem;
   color: #fff;
+}
+
+span {
+  color: #abafb0;
+}
+
+.prince-text {
+  color: #ffab15;
+}
+
+.img-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.film-title {
+  font-weight: 400;
+  font-size: 2rem;
+  color: #ffab15;
+}
+
+.film-year {
+  color: #abafb0;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.language {
+  background-color: #101a22;
+  padding: 0.4rem 0.4rem 0.4rem 0.4rem;
 }
 /*# sourceMappingURL=main.css.map */
