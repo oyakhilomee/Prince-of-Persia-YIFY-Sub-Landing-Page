@@ -183,12 +183,25 @@ span {
   }
   .btn-subtitle:hover {
     color: $color-six;
+    background-color: rgb(5, 65, 102);
     cursor: pointer;
   }
   .fa-chevron-down {
     color: #2b2f33;
   }
   .btn-subtitle:hover i {
-    color: rgb(10, 177, 233);
+    color: rgb(14, 186, 243);
   }
+}
+
+.login-register {
+  color: $color-two;
+  margin-top: 4rem;
+}
+
+.login-register:hover {
+  color: $color-two;
+  margin-top: 4rem;
+  // text-decoration: underline;
+  color: $color-six;
 }
