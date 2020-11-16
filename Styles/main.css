@@ -228,4 +228,38 @@ span {
   margin-top: 4rem;
   color: white;
 }
+
+.privacy-legal {
+  color: #ffab15;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer-text {
+  color: #abafb0;
+  text-align: center;
+  width: 100%;
+  max-width: 95%;
+}
+
+.copyright-text {
+  color: #abafb0;
+  text-align: center;
+}
+
+.bars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 1rem;
+}
+
+.container-body {
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+}
 /*# sourceMappingURL=main.css.map */

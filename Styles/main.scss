@@ -205,3 +205,34 @@ span {
   // text-decoration: underline;
   color: $color-six;
 }
+
+.privacy-legal {
+  color: $color-two;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer-text {
+  color: $color-one;
+  text-align: center;
+  width: 100%;
+  max-width: 95%;
+  // margin: auto;
+}
+
+.copyright-text {
+  color: $color-one;
+  text-align: center;
+}
+
+.bars {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+}
+
+.container-body {
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+}

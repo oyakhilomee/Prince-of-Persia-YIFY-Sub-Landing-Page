@@ -15,81 +15,96 @@
     <title>YIFY Prince of Persia</title>
   </head>
   <body>
-    <nav>
-      <a href=""><img src="/Assets/yifysubtitles-logo-small.png" alt="" /> </a>
-      <ul>
-        <li><a href="">Login</a></li>
-      </ul>
-    </nav>
-    <div class="searchbox">
-      <input type="text " placeholder="Search" class="search-input" />
-      <i class="fas fa-search"></i>
-    </div>
-
-    <div class="breadcrumbs mx-1">
-      <p class="prince-text">
-        Home <span> / </span> Prince of Persia: The Sands of Time
-        <span> / subtitle </span>
-      </p>
-    </div>
-
-    <div class="container">
-      <div class="landing">
-        <div class="img-one mx-1">
-          <img src="/Assets/prince.jpg" alt="" />
+    <div class="container-body">
+      <nav>
+        <div class="bars">
+          <i class="fas fa-bars bars" onclick="myFunction()"></i>
         </div>
 
-        <div class="text-left">
-          <div>
-            <p class="film-title text-center">
-              Prince of Persia: The Sands of Time
-            </p>
-            <p class="film-year text-center">2010</p>
-          </div>
-          <div class="button-container">
-            <div class="num-two">
-              <p class="two">2</p>
-            </div>
-            <div class="button-section">
-              <div class="language">
-                <p class="language-text">Language:</p>
-                <p class="english inline-block">English</p>
-              </div>
-              <!-- End of language div-->
-
-              <div class="uploader">
-                <p class="uploader-text">uploader:</p>
-                <p class="youtoo inline-block">youtoo</p>
-              </div>
-              <!-- End of uploader div-->
-            </div>
-            <!-- End of button-section-->
-          </div>
-          <!-- End of button-container-->
-          <p class="prince-text">Prince of Persia: The Sands of Time</p>
-
-          <div class="btn-sub">
-            <a href="/index.html">
-              <button class="btn-subtitle">
-                <i class="fas fa-chevron-down"></i> &nbsp; Download subtitle
-              </button>
-            </a>
-          </div>
-        </div>
-        <!-- End of text-left-->
+        <a href=""
+          ><img src="/Assets/yifysubtitles-logo-small.png" alt="" />
+        </a>
+        <ul id="myDIV">
+          <li><a href="">Login</a></li>
+        </ul>
+      </nav>
+      <div class="searchbox">
+        <input type="text " placeholder="Search" class="search-input" />
+        <i class="fas fa-search"></i>
       </div>
-      <!-- End of landing-->
-      <p class="login-register text-center">
-        login <span class="or-p"> or </span>register
-      </p>
-      <p>privacy | legal | contact</p>
-      <p>
-        All images and subtitles are copyrighted to their respectful owners
-        unless stated otherwise. This website is not associated with any
-        external links or websites.
-      </p>
-      <p>copy&& yifysubtitles.</p>
+
+      <div class="breadcrumbs mx-1">
+        <p class="prince-text">
+          Home <span> / </span> Prince of Persia: The Sands of Time
+          <span> / subtitle </span>
+        </p>
+      </div>
+
+      <div class="container">
+        <div class="landing">
+          <div class="img-one mx-1">
+            <img src="/Assets/prince.jpg" alt="" />
+          </div>
+
+          <div class="text-left">
+            <div>
+              <p class="film-title text-center">
+                Prince of Persia: The Sands of Time
+              </p>
+              <p class="film-year text-center">2010</p>
+            </div>
+            <div class="button-container">
+              <div class="num-two">
+                <p class="two">2</p>
+              </div>
+              <div class="button-section">
+                <div class="language">
+                  <p class="language-text">Language:</p>
+                  <p class="english inline-block">English</p>
+                </div>
+                <!-- End of language div-->
+
+                <div class="uploader">
+                  <p class="uploader-text">uploader:</p>
+                  <p class="youtoo inline-block">youtoo</p>
+                </div>
+                <!-- End of uploader div-->
+              </div>
+              <!-- End of button-section-->
+            </div>
+            <!-- End of button-container-->
+            <p class="prince-text">Prince of Persia: The Sands of Time</p>
+
+            <div class="btn-sub">
+              <a href="/index.html">
+                <button class="btn-subtitle">
+                  <i class="fas fa-chevron-down"></i> &nbsp; Download subtitle
+                </button>
+              </a>
+            </div>
+          </div>
+          <!-- End of text-left-->
+        </div>
+        <!-- End of landing-->
+        <p class="login-register text-center">
+          login <span class="or-p"> or </span>register
+        </p>
+        <p class="privacy-legal">
+          privacy <span> | </span> legal <span> | </span>contact
+        </p>
+        <p class="footer-text">
+          All images and subtitles are copyrighted to their respectful owners
+          unless stated otherwise. This website is not associated with any
+          external links or websites.
+        </p>
+        <p class="copyright-text">&#169; yifysubtitles.</p>
+      </div>
+      <!-- End of container class-->
     </div>
-    <!-- End of container class-->
+    <!-- End of container-body-->
+    <button>Click Me</button>
+
+    <div>This is my DIV element.</div>
+    <script src="/app.js"></script>
   </body>
 </html>
