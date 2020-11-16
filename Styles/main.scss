@@ -112,7 +112,6 @@ span {
 
 .button-container {
   display: flex;
-  background-color: red;
   width: 100%;
   max-width: 90%;
   margin: 0 auto;
@@ -160,5 +159,36 @@ span {
   .youtoo:hover {
     color: $color-six;
     cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.prince-text {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1.4rem;
+}
+
+.btn-sub {
+  display: flex;
+  justify-content: center;
+  // background-color: red;
+  .btn-subtitle {
+    padding: 0.6rem 1.9rem 0.6rem 1.9rem;
+    border: none;
+    text-transform: uppercase;
+    color: $color-two;
+    // font-weight: bold;
+    background-color: $color-seven;
+  }
+  .btn-subtitle:hover {
+    color: $color-six;
+    cursor: pointer;
+  }
+  .fa-chevron-down {
+    color: #2b2f33;
+  }
+  .btn-subtitle:hover i {
+    color: rgb(10, 177, 233);
   }
 }
